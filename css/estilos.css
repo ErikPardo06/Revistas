@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2b6c1;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: green;
+}
+
+.intro {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+/* MENÚ */
+.menu {
+  display: flex;
+  justify-content: center;
+  background-color: #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.menu a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
+
+/* TARJETAS */
+.card {
+  background-color: #e38da0;
+  border: 3px solid #c05a6b;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 25px;
+}
+
+.card h2 {
+  background-color: #c05a6b;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content img {
+  width: 150px;
+  border-radius: 5px;
+}
+
+.text {
+  width: 70%;
+}
+
+.content p {
+  text-align: justify;
+}
+
+.verde {
+  border-top: 2px solid green;
+  border-bottom: 2px solid green;
+}
+
+.rojo {
+  color: red;
+  text-decoration: dotted;
+}
